@@ -1,0 +1,33 @@
+{
+  "name": "ronaldos-lobby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir project/dist/ --public-url ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronJY/ronaldos-lobby.git"
+  },
+  "author": "Aaron Yarborough",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronJY/ronaldos-lobby/issues"
+  },
+  "homepage": "https://github.com/AaronJY/ronaldos-lobby#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ical.js": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "cpx": "1.5.0",
+    "cssnano": "^4.1.10",
+    "sass": "^1.26.5",
+    "@types/node": "^13.13.4",
+    "typescript": "^3.8.3"
+  }
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
+$colour-work: #7298FF;
+$colour-birthday: #FFDA72;
+
+body {
+    background-color: #000;
+    margin: 0;
+    // background-image: url(../bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+* {
+    color: #fff;
+}
+
+
+#day {
+    font-size: 150px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+#month {
+    font-size: 75px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 80%;
+    padding: 100px;
+}
+
+#dateWrapper {
+    flex: 1;
+}
+
+#sizeWrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#eventsTitle {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: #959595;
+    padding-bottom: 60px;
+} 
+
+ul#eventList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin: 25px 0;
+    }
+}
+
+.event {
+    font-size:40px;
+    font-family: 'Merriweather', sans-serif;
+
+    .icon {
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+    }
+
+    &.cat-work {
+        .icon {
+            background-color: $colour-work;
+        }
+
+        .cat {
+            color: $colour-work;
+        }
+    }
+
+    &.cat-birthday {
+        .icon {
+            background-color: $colour-birthday;
+        }
+
+        .cat {
+            color: $colour-birthday;
+        }
+    }
+
+    .cat-wrapper {
+        display: inline-block;
+        width: 280px;
+        margin-left: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "project/dist",
+    "rootDir": "src",
+    "strict": true,
+    "lib": ["ESNext", "dom"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es5",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules"]
+}
