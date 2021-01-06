@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/AaronJY/ronaldos-lobby#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "ical.js": "^1.4.0"
   },
   "devDependencies": {
